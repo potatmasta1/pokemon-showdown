@@ -312,6 +312,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	charmander: {
 		learnset: {
+			roaroftime: ["9E"],
 			acrobatics: ["8M", "5S6"],
 			aerialace: ["7M", "6M", "5M", "4M", "3M"],
 			aircutter: ["7E", "6E"],
