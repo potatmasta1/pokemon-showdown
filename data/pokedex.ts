@@ -19251,4 +19251,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		gen: 5,
 	},
+	sammon: {
+		num: -6001,
+		name: "sammon",
+		types: ["Water", "Electric"],
+		gender: "N",
+		baseStats: {hp: 2, atk: 99, def: 14, spa: 5, spd: 800, spe: 10},
+		abilities: {0: "Levitate"},
+		heightm: 333,
+		weightkg: 61,
+		color: "White",
+		eggGroups: ["Undiscovered"],
+	},
 };
