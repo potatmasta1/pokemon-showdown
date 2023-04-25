@@ -19257,7 +19257,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		types: ["Water", "Electric"],
 		gender: "N",
 		baseStats: {hp: 2, atk: 99, def: 14, spa: 5, spd: 800, spe: 10},
-		abilities: {0: "Levitate"},
+		abilities: {0: "Levitate", 1: "Ice Scales", H: "Prism Armor" , S: "Hadron Engine"},
 		heightm: 333,
 		weightkg: 61,
 		color: "White",
