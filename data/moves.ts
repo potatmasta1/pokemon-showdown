@@ -21605,7 +21605,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
 
-		},
+	
 		secondary: null,
 		target: "self",
 		type: "Psychic",
