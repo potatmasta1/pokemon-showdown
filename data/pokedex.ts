@@ -19263,4 +19263,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "White",
 		eggGroups: ["Undiscovered"],
 	},
+		killasaurusrex: {
+		num: -6002,
+		name: "Killasaurus-Rex",
+		types: ["Dragon", "Steel"],
+		gender: "N",
+		baseStats: {hp: 118, atk: 153, def: 136, spa: 153, spd: 118, spe: 99},
+		abilities: {0: "Protosynthesis", 1: "Quark Drive", H: "Mega Launcher" , S: "Moxie"},
+		heightm: 40,
+		weightkg: 800,
+		color: "Black",
+		eggGroups: ["Undiscovered"],
+	},
 };
