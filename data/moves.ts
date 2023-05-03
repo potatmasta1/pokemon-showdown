@@ -21606,6 +21606,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
 		onTryHit(target, pokemon) {
 			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
 			return null;
 		},
 	
