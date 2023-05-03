@@ -21610,4 +21610,5 @@ export const Moves: {[moveid: string]: MoveData} = {
 		target: "self",
 		type: "Psychic",
 		contestType: "Cute",
+	},
 };
