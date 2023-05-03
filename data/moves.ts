@@ -21595,5 +21595,19 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Electric",
 		contestType: "Cool",
 	},
+	signaturemoveofthemanne: {
+		num: 118,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "SIGNATURE MOVE OF THEMANNE",
+		pp: 10,
+		priority: 0,
+		flags: {failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
 
+		},
+		secondary: null,
+		target: "self",
+		type: "Normal",
+		contestType: "Cute",
 };
