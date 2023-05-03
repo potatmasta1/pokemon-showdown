@@ -94386,11 +94386,16 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			ceaselessedge: ["9L28"],
 			shiftgear: ["9L28"],
 			inferno: ["9L28"],
-			hyperspacefury: ["9L28"],
+			earthquake: ["9L28"],
 			megakick: ["9L28"],
 			fissure: ["9L28"],
 			outrage: ["9L28"],
 			jawlock: ["9L28"],
+		},
+	},
+	themanne: {
+		learnset: {
+			signaturemoveofthemanne: ["9L28"],
 		},
 	},
 };

@@ -19275,4 +19275,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Black",
 		eggGroups: ["Undiscovered"],
 	},
+	themanne: {
+		num: -6002,
+		name: "THEMANNE",
+		types: ["Dark", "Psychic"],
+		gender: "M",
+		baseStats: {hp: 109, atk: 111, def: 110, spa: 111, spd: 112, spe: 113},
+		abilities: {0: "Moody", 1: "Wonder Guard", H: "Truant", S: "Prankster"},
+		heightm: 1.8,
+		weightkg: 9,
+		color: "Pink",
+		eggGroups: ["Undiscovered"],
+	},
 };
