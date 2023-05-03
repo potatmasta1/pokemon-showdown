@@ -21605,7 +21605,6 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
 
-		],
 		onHit(target, source, effect) {
 			this.actions.useMove(Metronome, target);
 		},
