@@ -21608,6 +21608,13 @@ export const Moves: {[moveid: string]: MoveData} = {
 			this.actions.useMove('metronome', pokemon, target);
 			this.actions.useMove('metronome', pokemon, target);
 			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
+			this.actions.useMove('metronome', pokemon, target);
 			return null;
 		},
 	
