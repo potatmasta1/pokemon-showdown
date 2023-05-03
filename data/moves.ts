@@ -21596,7 +21596,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 	},
 	signaturemoveofthemanne: {
-		num: 118,
+		num: 1001,
 		accuracy: true,
 		basePower: 0,
 		category: "Status",
