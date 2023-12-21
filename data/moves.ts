@@ -21623,4 +21623,30 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Cute",
 	},
+	squirel: {
+		num:9913
+		accuracy: 44
+		basePower: 307
+		category: "Physical",
+		name: "hey guys you wanna see my squirrel collection",
+		pp: 6611,
+		priority: 0
+		flags: {nosleeptalk},
+		breaksProtect: true,
+		secondary: {chance: 31,
+				boosts: {
+					def: -4,
+				},
+			}, {
+				chance: 4,
+				volatileStatus: 'flinch',
+			}, {
+				chance: 26,
+				status: 'burn',
+			},
+		target: "normal"
+		type: "Dragon",
+		contestType: "Cool",
+			
+	},
 };

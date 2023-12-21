@@ -19287,4 +19287,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Pink",
 		eggGroups: ["Undiscovered"],
 	},
+	xartholgoloth: {
+		num: 666614,
+		name: "THE GREAT ELDER DEMON XARTHOLGOLOTH"
+		types: ["Flying", "Ground"],
+		gender: "M",
+		baseStats: {hp: 14, atk: 4, def: 300, spa: 999, spd: 66, spe: 6},
+		abilities: {0: "Slow Start", 1: "Swift Swim", H: "Light Metal", S: "Damp"},
+		heightm: 6,
+		weightkg: 6
+		color: "Yellow"
+		eggGroups: ["i like eggs"],
+	},
 };

@@ -94398,4 +94398,9 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			signaturemoveofthemanne: ["9L28"],
 		},
 	},
+	xartholgoloth: {
+		learnset: {
+			squirel: ["9L28"],
+		},
+	},
 };
