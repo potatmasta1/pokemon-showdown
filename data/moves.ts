@@ -21624,9 +21624,9 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cute",
 	},
 	squirel: {
-		num:9913
-		accuracy: 44
-		basePower: 307
+		num:9913,
+		accuracy: 44,
+		basePower: 307,
 		category: "Physical",
 		name: "hey guys you wanna see my squirrel collection",
 		pp: 6611,
@@ -21644,7 +21644,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 				chance: 26,
 				status: 'burn',
 			},
-		target: "normal"
+		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
 			
