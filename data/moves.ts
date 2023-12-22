@@ -21637,10 +21637,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 				boosts: {
 					def: -4,
 				},
+		}
 		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
 			
 	},
-};
 }
