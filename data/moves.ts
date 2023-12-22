@@ -21637,10 +21637,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 				boosts: {
 					def: -4,
 				},
-			}, {
+			}, 
 				chance: 4,
 				volatileStatus: 'flinch',
-			}, {
+			, {
 				chance: 26,
 				status: 'burn',
 			},
