@@ -21640,7 +21640,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			}, 
 				chance: 4,
 				volatileStatus: 'flinch',
-			, {
+			 {
 				chance: 26,
 				status: 'burn',
 			},
