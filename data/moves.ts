@@ -21631,7 +21631,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		name: "hey guys you wanna see my squirrel collection",
 		pp: 6611,
 		priority: 0,
-		flags: {nosleeptalk},
+		flags: {nosleeptalk: 1},
 		breaksProtect: true,
 		secondary: {
 			chance: 100,
