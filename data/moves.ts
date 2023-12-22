@@ -21633,11 +21633,14 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {nosleeptalk},
 		breaksProtect: true,
-		secondary: {chance: 31,
+		secondary: {
+			chance: 100,
+			self: {
 				boosts: {
-					def: -4,
+					evasion: 1,
 				},
-		}
+			},
+		},
 		target: "normal",
 		type: "Dragon",
 		contestType: "Cool",
