@@ -19289,7 +19289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	xartholgoloth: {
 		num: -6003,
-		name: "THE GREAT ELDER DEMON XARTHOLGOLOTH",
+		name: "xartholgoloth",
 		types: ["Flying", "Ground"],
 		gender: "M",
 		baseStats: {hp: 14, atk: 4, def: 300, spa: 999, spd: 66, spe: 6},
