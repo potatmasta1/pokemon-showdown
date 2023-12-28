@@ -94403,4 +94403,18 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			squirel: ["9L28"],
 		},
 	},
+	squrl: {
+		learnset: {
+			scratch: ["9L28"],
+			growl: ["9L28"],
+		},
+	},
+	bigjuicysqurl: {
+		learnset: {
+			scratch: ["9L28"],
+			growl: ["9L28"],
+			splash: ["9L28"],
+			explosion: ["9L28"],
+		},
+	},
 };
