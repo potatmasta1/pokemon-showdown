@@ -94416,6 +94416,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			splash: ["9L28"],
 			explosion: ["9L28"],
 		},
+	},
 	granddonglingshcrongus: {
 		learnset: {
 			tickle: ["9L28"],
