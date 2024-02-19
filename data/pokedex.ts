@@ -19289,7 +19289,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},
 	xartholgoloth: {
 		num: -6003,
-		name: "Xartholgoloth",
+		name: "ElderDemonXartholgoloth",
 		types: ["Flying", "Ground"],
 		gender: "M",
 		baseStats: {hp: 14, atk: 4, def: 300, spa: 999, spd: 66, spe: 6},
@@ -19320,5 +19320,16 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		weightkg: 10,
 		color: "Brown",
 		eggGroups: ["Field"],
+	},	
+	granddonglingshcrongus: {
+		num: -6005,
+		name: "The Grand Dongling Shcrongus",
+		types: ["Ghost", "Fighting"],
+		baseStats: {hp: 180, atk: 10, def: 160, spa: 69, spd: 150, spe: 40},
+		abilities: {0: "Pickup", 1: "Keen Eye", H: "Slow Start", S: "Damp"},
+		heightm: 2.7,
+		weightkg: 20000,
+		color: "Brown",
+		eggGroups: ["Human-Like", "Amorphous"],
 	},
 };
