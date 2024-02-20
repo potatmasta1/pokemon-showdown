@@ -19323,7 +19323,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 	},	
 	shcrongus: {
 		num: -6005,
-		name: "Grand Dongling Shcrongus",
+		name: "Shcrongus",
 		types: ["Ghost", "Fighting"],
 		baseStats: {hp: 180, atk: 10, def: 160, spa: 69, spd: 150, spe: 40},
 		abilities: {0: "Stench", 1: "Contrary", H: "Infiltrator", S: "Prankster"},
