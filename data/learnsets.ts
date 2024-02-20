@@ -94462,7 +94462,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			firepunch: ["9L28"],
 			icepunch: ["9L28"],
 			thunderpunch: ["9L28"],
-			
+			dongle: ["9L28"],
 		},	
 	},
 };

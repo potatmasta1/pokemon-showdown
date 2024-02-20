@@ -21646,4 +21646,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 		contestType: "Cool",
 			
 	},
+	dongle: {
+		num: 9914,
+		accuracy: 100,
+		basePower: 0,
+		damageCallback(pokemon, target) {
+			return target.getUndynamaxedHP() - 69;
+		},
+		category: "Physical",
+		name: "Dongle",
+		pp: 5,
+		priority: 0,
+		flags: {contact: 1, protect: 1, mirror: 1, noparentalbond: 1},
+		onTryImmunity(target, pokemon) {
+			return 69 < target.hp;
+		},
+		secondary: null,
+		target: "normal",
+		type: "Normal",
+		zMove: {basePower: 160},
+		maxMove: {basePower: 130},
+		contestType: "Tough",
+	},
 }
