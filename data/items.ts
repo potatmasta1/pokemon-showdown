@@ -7533,14 +7533,14 @@ export const Items: {[itemid: string]: ItemData} = {
 	},
 	forbiddennut: {
 		name: "Forbidden Nut",
-		spritenum: 666,
+		spritenum: 752,
 		onSwitchIn(pokemon) {
 			if (pokemon.isActive && pokemon.baseSpecies.name === 'Weird Squrl') {
 				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
 			}
 		},
 		onPrimal(pokemon) {
-			pokemon.formeChange('Eldritch Squrl', this.effect, true);
+			pokemon.formeChange('Weird Squrl-Primal', this.effect, true);
 		},
 		onTakeItem(item, source) {
 			if (source.baseSpecies.baseSpecies === 'Weird Squrl') return false;

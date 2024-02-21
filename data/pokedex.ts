@@ -19344,12 +19344,12 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		color: "Brown",
 		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
-		otherFormes: ["Eldritch Squrl"],
-		formeOrder: ["Weird Squrl", "Eldritch Squrl"],
+		otherFormes: ["Weird Squrl-Primal"],
+		formeOrder: ["Weird Squrl", "Weird Squrl-Primal"],
 	},
-	eldritchsqurlprimal: {
+	weirdsqurlprimal: {
 		num: -6006,
-		name: "Eldritch Squrl",
+		name: "Weird Squrl-Primal",
 		baseSpecies: "Weird Squrl",
 		forme: "Primal",
 		types: ["Ghost", "Poison"],
