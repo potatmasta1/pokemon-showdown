@@ -19342,6 +19342,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		heightm: 0.1,
 		weightkg: 1,
 		color: "Brown",
+		tags: ["Restricted Legendary"],
 		eggGroups: ["Undiscovered"],
 		otherFormes: ["Eldritch Squrl"],
 		formeOrder: ["Weird Squrl", "Eldritch Squrl"],
