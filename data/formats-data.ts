@@ -6284,4 +6284,10 @@ export const FormatsData: {[k: string]: SpeciesFormatsData} = {
 		isNonstandard: "Custom",
 		tier: "Illegal",
 	},
+	weirdsqurl: {
+		tier: "LC",
+	},
+	weirdsqurlmega: {
+		tier: "LC",
+	},
 };
