@@ -7542,6 +7542,6 @@ export const Items: {[itemid: string]: ItemData} = {
 			return true;
 		},
 		num: -3,
-		gen: 9,
+		gen: 6,
     },
 };
