@@ -21634,7 +21634,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {nosleeptalk: 1},
 		breaksProtect: true,
 		secondary: {
-			chance: 100,
+			chance: 98,
 			self: {
 				boosts: {
 					evasion: 1,
@@ -21642,7 +21642,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			},
 		},
 		target: "normal",
-		type: "Dragon",
+		type: "Bug",
 		contestType: "Cool",
 			
 	},
