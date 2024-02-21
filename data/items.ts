@@ -7531,4 +7531,23 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
+	forbiddennut: {
+		name: "Forbidden Nut",
+		spritenum: 666,
+		onSwitchIn(pokemon) {
+			if (pokemon.isActive && pokemon.baseSpecies.name === 'Squrl?') {
+				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
+			}
+		},
+		onPrimal(pokemon) {
+			pokemon.formeChange('Eldritch Squrl', this.effect, true);
+		},
+		onTakeItem(item, source) {
+			if (source.baseSpecies.baseSpecies === 'Squrl?') return false;
+			return true;
+		},
+		itemUser: ["Squrl?"],
+		num: -666,
+		gen: 6,
+	},
 };

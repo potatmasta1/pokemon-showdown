@@ -94464,5 +94464,11 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			thunderpunch: ["9L28"],
 			dongle: ["9L28"],
 		},	
+	},	
+	eldritchsqurl: {
+		learnset: {
+			scratch: ["9L28"],
+			growl: ["9L28"],
+	    },
 	},
 };
