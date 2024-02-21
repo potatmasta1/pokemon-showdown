@@ -94465,7 +94465,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			dongle: ["9L28"],
 		},	
 	},	
-	eldritchsqurl: {
+	weirdsqurl: {
 		learnset: {
 			scratch: ["9L28"],
 			growl: ["9L28"],
