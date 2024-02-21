@@ -7531,23 +7531,17 @@ export const Items: {[itemid: string]: ItemData} = {
 		gen: 8,
 		isNonstandard: "CAP",
 	},
-	forbiddennut: {
+    forbiddennut: {
 		name: "Forbidden Nut",
-		spritenum: 752,
-		onSwitchIn(pokemon) {
-			if (pokemon.isActive && pokemon.baseSpecies.name === 'Weird Squrl') {
-				this.queue.insertChoice({choice: 'runPrimal', pokemon: pokemon});
-			}
-		},
-		onPrimal(pokemon) {
-			pokemon.formeChange('Weird Squrl-Primal', this.effect, true);
-		},
+		spritenum: 577,
+		megaStone: "Weird Squrl-Mega",
+		megaEvolves: "Weird Squrl",
+		itemUser: ["Weird Squrl"],
 		onTakeItem(item, source) {
-			if (source.baseSpecies.baseSpecies === 'Weird Squrl') return false;
+			if (item.megaEvolves === source.baseSpecies.baseSpecies) return false;
 			return true;
 		},
-		itemUser: ["Weird Squrl"],
-		num: -666,
+		num: -3,
 		gen: 9,
-	},
+    },
 };
