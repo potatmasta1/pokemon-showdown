@@ -21623,7 +21623,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		type: "Psychic",
 		contestType: "Cute",
 	},
-	squirel: {
+	hgywsmsc: {
 		num:9913,
 		accuracy: 44,
 		basePower: 307,

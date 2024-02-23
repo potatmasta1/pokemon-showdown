@@ -94400,7 +94400,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	xartholgoloth: {
 		learnset: {
-			squirel: ["9L28"],
+			hgywsmsc: ["9L28"],
 		},
 	},
 	squrl: {
