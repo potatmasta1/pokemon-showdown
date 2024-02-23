@@ -21656,6 +21656,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			onHit(target, source, move) {
 				if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
 			},
+			},
 			{
 				chance: 18,
 				volatileStatus: 'flinch',
@@ -21673,10 +21674,10 @@ export const Moves: {[moveid: string]: MoveData} = {
 				boosts: {
 					spd: -6,
 			},
+			},
 			chance: 10,
 			status: 'brn',
 			
-			},
 		],
 		target: "normal",
 		type: "Bug",
