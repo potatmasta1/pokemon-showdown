@@ -21633,7 +21633,8 @@ export const Moves: {[moveid: string]: MoveData} = {
 		priority: 0,
 		flags: {nosleeptalk: 1},
 		breaksProtect: true,
-		willCrit: true
+		ignoreAbility: true,
+		willCrit: true,
 		secondaries: [
 			{
 				chance: 78,
