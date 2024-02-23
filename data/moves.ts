@@ -21634,7 +21634,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {nosleeptalk: 1},
 		breaksProtect: true,
 		willCrit: true
-		secondary: [{
+		secondaries: [{
 			chance: 98,
 			self: {
 				boosts: {
