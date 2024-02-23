@@ -21627,6 +21627,16 @@ export const Moves: {[moveid: string]: MoveData} = {
 		num:9913,
 		accuracy: 44,
 		basePower: 307,
+		basePowerCallback(pokemon, target, move) {
+			const damagedByTarget = pokemon.attackedBy.some(
+				p => p.source === target && p.damage > 0 && p.thisTurn
+			);
+			if (damagedByTarget) {
+				this.debug('BP doubled for getting hit by ' + target);
+				return move.basePower * 1.3;
+			}
+			return move.basePower;
+		},
 		category: "Physical",
 		name: "HGYWSMSC",
 		pp: 6611,
@@ -21643,13 +21653,29 @@ export const Moves: {[moveid: string]: MoveData} = {
 				},
 			}, 
 			{
-				chance: 18,
-				volatileStatus: 'flinch',
+				chance: 64,
+				boosts: {
+					spd: -1,
+				},
 			},
 			{
-				chance: 4,
+				chance: 18,
+				volatileStatus: 'taunt',
+			},
+			{
+				self: {
+				chance: 11,
 				boosts: {
 					atk: 3,
+				},
+				},
+			},
+			{
+				self: {
+				chance: 7,
+				boosts: {
+					spd: 6,
+				},
 				},
 			},
 			{
@@ -21659,7 +21685,7 @@ export const Moves: {[moveid: string]: MoveData} = {
 			    },
 			},
 			{
-				chance: 18,
+				chance: 77,
 				volatileStatus: 'flinch',
 			}, 
 			{
