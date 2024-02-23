@@ -21628,19 +21628,25 @@ export const Moves: {[moveid: string]: MoveData} = {
 		accuracy: 44,
 		basePower: 307,
 		category: "Physical",
-		name: "hey guys you wanna see my squirrel collection",
+		name: "HGYWSMSC",
 		pp: 6611,
 		priority: 0,
 		flags: {nosleeptalk: 1},
 		breaksProtect: true,
-		secondary: {
+		willCrit: true
+		secondary: [{
 			chance: 98,
 			self: {
 				boosts: {
 					evasion: 1,
 				},
 			},
-		},
+		},{chance: 98,
+			self: {
+				boosts: {
+					speed: 1,
+				},
+			},}]
 		target: "normal",
 		type: "Bug",
 		contestType: "Cool",
