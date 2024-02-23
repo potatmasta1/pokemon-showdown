@@ -21634,19 +21634,50 @@ export const Moves: {[moveid: string]: MoveData} = {
 		flags: {nosleeptalk: 1},
 		breaksProtect: true,
 		willCrit: true
-		secondaries: [{
-			chance: 98,
-			self: {
+		secondaries: [
+			{
+				chance: 78,
 				boosts: {
-					evasion: 1,
+					spe: 1,
+				},
+			}, 
+			{
+				chance: 18,
+				volatileStatus: 'flinch',
+			},
+			{
+				chance: 4,
+				boosts: {
+					atk: 3,
 				},
 			},
-		},{chance: 98,
-			self: {
+			{
+			chance: 26,
+			onHit(target, source, move) {
+				if (source.isActive) target.addVolatile('trapped', source, move, 'trapper');
+			},
+			{
+				chance: 18,
+				volatileStatus: 'flinch',
+			}, 
+			{
+				chance: 7,
+				volatileStatus: 'yawn',
+			}, 
+			{
+				chance: 20,
+				volatileStatus: 'torment',
+			}, 
+			{
+				chance: 4,
 				boosts: {
-					speed: 1,
-				},
-			},}]
+					spd: -6,
+			},
+			chance: 10,
+			status: 'brn',
+			
+			},
+		],
 		target: "normal",
 		type: "Bug",
 		contestType: "Cool",
