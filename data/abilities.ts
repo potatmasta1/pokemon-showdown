@@ -5241,5 +5241,6 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Easternly Might",
 		rating: 3,
 		num: -5,
+		}
 	},
 };
