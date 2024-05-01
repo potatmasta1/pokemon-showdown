@@ -5228,6 +5228,12 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 				this.add("-fail", target, "unboost", "[from] ability: Easternly Might", "[of] " + target);
 			}
 		},
+		onSourceBasePowerPriority: 18,
+		onSourceBasePower(basePower, attacker, defender, move) {
+			if (move.type === 'Ice'){
+		    this.add('-activate', target, 'ability: Easternly Might');
+			this.effectState.resisted = true;
+			return -1;}
 		name: "Easternly Might",
 		rating: 4,
 		num: -5,
