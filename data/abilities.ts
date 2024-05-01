@@ -5238,9 +5238,10 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		onDragOut(pokemon) {
 			this.add('-activate', pokemon, 'ability: Easternly Might');
 			return null;
+		}
 		name: "Easternly Might",
 		rating: 3,
 		num: -5,
-		}
+		
 	},
 };
