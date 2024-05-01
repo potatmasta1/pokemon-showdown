@@ -19366,7 +19366,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "The Beast Of The East",
 		types: ["Normal", "Dragon"],
 		baseStats: {hp: 133, atk: 134, def: 105, spa: 117, spd: 103, spe: 137},
-		abilities: {0: "Intimidate"},
+		abilities: {0: "Easternly Might"},
 		heightm: 6.3,
 		weightkg: 998.9,
 		color: "Brown",

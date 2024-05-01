@@ -5213,4 +5213,23 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		rating: 3,
 		num: -4,
 	},
+	easternlymight: {
+		onTryBoost(boost, target, source, effect) {
+			
+			let showMsg = false;
+			let i: BoostID;
+			for (i in boost) {
+				if (boost[i]! < 0) {
+					delete boost[i];
+					showMsg = true;
+				}
+			}
+			if (showMsg && !(effect as ActiveMove).secondaries && effect.id !== 'octolock') {
+				this.add("-fail", target, "unboost", "[from] ability: Easternly Might", "[of] " + target);
+			}
+		},
+		name: "Easternly Might",
+		rating: 4,
+		num: -5,
+	},
 };
