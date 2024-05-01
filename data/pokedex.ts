@@ -19361,4 +19361,14 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		eggGroups: ["Undiscovered"],
 		requiredItem: "Forbidden Nut",
 	},
+		thebeastoftheeast: {
+		num: -6007,
+		name: "The Beast Of The East",
+		types: ["Normal", "Dragon"],
+		baseStats: {hp: 133, atk: 134, def: 105, spa: 117, spd: 103, spe: 137},
+		abilities: {0: "Intimidate"},
+		heightm: 6.3,
+		weightkg: 998.9,
+		color: "Brown",
+		eggGroups: ["Undiscovered"],
 };
