@@ -5230,12 +5230,16 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		},
 		onSourceBasePowerPriority: 18,
 		onSourceBasePower(basePower, attacker, defender, move) {
-			if (move.type === 'Ice'){
-		    this.add('-activate', target, 'ability: Easternly Might');
-			this.effectState.resisted = true;
-			return -1;}
+			if (move.type === 'Ice') {
+				return this.chainModify(0.25);
+			}
+		},
+		onDragOutPriority: 1,
+		onDragOut(pokemon) {
+			this.add('-activate', pokemon, 'ability: Easternly Might');
+			return null;
 		name: "Easternly Might",
-		rating: 4,
+		rating: 3,
 		num: -5,
 	},
 };
