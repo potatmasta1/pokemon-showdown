@@ -21734,4 +21734,142 @@ export const Moves: {[moveid: string]: MoveData} = {
 		maxMove: {basePower: 130},
 		contestType: "Tough",
 	},
+	heartattack: {
+		num: 9915,
+		accuracy: 100,
+		basePower: 0,
+		category: "Status",
+		name: "Heart Attack",
+		pp: 10,
+		priority: 0,
+		flags: {protect: 1, mirror: 1},
+		selfdestruct: "always",
+		secondary: null,
+		target: "normal",
+		type: "Poison",
+		zMove: {boost: {atk: 12, def: 12, spa: 12, spd: 12, spe: 12, accuracy: 12, evasion: 12}},
+		contestType: "Tough",
+	},
+	froop: {
+		num: 9916,
+		accuracy: 100,
+		basePower: 200,
+		category: "Special",
+		name: "FROOOP",
+		pp: 5,
+		priority: -6,
+		flags: {sound: 1, protect: 1, mirror: 1, noassist: 1, failcopycat: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -12,
+			},
+		},
+		self: {
+			volatileStatus: 'mustrecharge',
+		},
+		forceSwitch: true,
+		target: "normal",
+		type: "Bug",
+		contestType: "Tough",
+	},
+	fismove: {
+		num: 877,
+		accuracy: true,
+		basePower: 0,
+		category: "Status",
+		name: "fis move",
+		pp: 10,
+		priority: 0,
+		flags: {failencore: 1, nosleeptalk: 1, noassist: 1, failcopycat: 1, failinstruct: 1, failmimic: 1},
+		onTryHit(target, pokemon) {
+			this.actions.useMove('screech', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splishysplash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('bubble', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('doubleslap', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('stockpile', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('whirlpool', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('happyhour', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('teeterdance', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('struggle', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('toxic', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('tackle', pokemon, target);
+			this.actions.useMove('bubble', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('bouncybubble', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('flail', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('tickle', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('spitup', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('healpulse', pokemon, target);
+			this.actions.useMove('watersport', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('screech', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('mudsport', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('peck', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('waterpulse', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('present', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('rapidspin', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('splash', pokemon, target);
+			this.actions.useMove('screech', pokemon, target);
+			this.actions.useMove('tickle', pokemon, target);
+			this.actions.useMove('screech', pokemon, target);
+			this.actions.useMove('trickortreat', pokemon, target);
+			this.actions.useMove('explosion', pokemon, target);
+			return null;
+		},
+	
+		secondary: null,
+		target: "self",
+		type: "Water",
+		contestType: "Cute",
 }

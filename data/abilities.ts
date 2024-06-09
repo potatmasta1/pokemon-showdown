@@ -5244,4 +5244,14 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -5,
 		
 	},
+	bassboost: {
+		onAfterMoveSecondarySelf(target, source, move) {
+			if (move.flags['sound']) {
+				this.boost({def: -2}, target, pokemon, null, true);
+			}
+		},
+		name: "Bass Boost",
+		rating: 3,
+		num: -5,
+	},
 };

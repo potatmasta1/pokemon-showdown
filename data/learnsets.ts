@@ -94547,7 +94547,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 	},
 	tyrone: {
 		learnset: {
-			memento: ["9L28"],
+			heartattack: ["9L28"],
 	    },
 	},
 	shmeebo: {
