@@ -5244,14 +5244,21 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		num: -5,
 		
 	},
-	bassboost: {
-		onAfterMoveSecondarySelf(target, source, move) {
-			if (move.flags['sound']) {
-				this.boost({def: -2}, target, pokemon, null, true);
+		bassboost: {
+		onModifyMove(move) {
+			if (!move?.flags['sound'] || move.target === 'self') return;
+			if (!move.secondaries) {
+				move.secondaries = [];
 			}
+			move.secondaries.push({
+				chance: 100,
+				boosts: {
+				def: -2,
+			},
+				ability: this.dex.abilities.get('poisontouch'),
+			});
 		},
 		name: "Bass Boost",
-		rating: 3,
-		num: -5,
-	},
+		rating: 2,
+		num: -6,
 };
