@@ -94543,6 +94543,8 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			surf: ["9L28"],
 			eerieimpulse: ["9L28"],
 			toxic: ["9L28"],
+			fismove: ["9L28"],
+			splishysplash: ["9L28"],
 	    },
 	},
 	tyrone: {
@@ -94641,6 +94643,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			flail: ["9L28"],
 			partingshot: ["9L28"],
 			sonicboom: ["9L28"],
+			froop: ["9L28"],
 	    },
 	},
 	giantfroopspider: {
@@ -94677,6 +94680,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			flail: ["9L28"],
 			partingshot: ["9L28"],
 			sonicboom: ["9L28"],
+			frooop: ["9L28"],
 		},
 	},
 	moustacheman: {

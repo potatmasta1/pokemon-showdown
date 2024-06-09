@@ -21753,6 +21753,26 @@ export const Moves: {[moveid: string]: MoveData} = {
 	froop: {
 		num: 9916,
 		accuracy: 100,
+		basePower: 120,
+		category: "Special",
+		name: "FROOP",
+		pp: 5,
+		priority: -6,
+		flags: {sound: 1, protect: 1, mirror: 1, noassist: 1, failcopycat: 1},
+		secondary: {
+			chance: 100,
+			boosts: {
+				spe: -12,
+			},
+		},
+		forceSwitch: true,
+		target: "normal",
+		type: "Bug",
+		contestType: "Tough",
+	},
+	frooop: {
+		num: 9916,
+		accuracy: 100,
 		basePower: 200,
 		category: "Special",
 		name: "FROOOP",

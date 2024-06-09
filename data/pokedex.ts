@@ -19435,7 +19435,7 @@ export const Pokedex: {[speciesid: string]: SpeciesData} = {
 		name: "Giant Froop Spider",
 		types: ["Bug", "Normal"],
 		baseStats: {hp: 128, atk: 96, def: 80, spa: 136, spd: 100, spe: 60},
-		abilities: {0: "Punk Rock", 1: "Soundproof", H: "Infiltrator", S: "Poison Heal"},
+		abilities: {0: "Bass Boost", 1: "Soundproof", H: "Infiltrator", S: "Poison Heal"},
 		heightm: 0.4,
 		weightkg: 61,
 		color: "Purple",
