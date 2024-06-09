@@ -94717,7 +94717,7 @@ export const Learnsets: {[speciesid: string]: LearnsetData} = {
 			toxicthread: ["9L28"],
 			electroweb: ["9L28"],
 			metronome: ["9L28"],
-			sheercold: ["9L28"],
+			thunderbolt: ["9L28"],
 			featherdance: ["9L28"],
 			minimize: ["9L28"],
 			ruination: ["9L28"],
