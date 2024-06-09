@@ -5261,4 +5261,5 @@ export const Abilities: {[abilityid: string]: AbilityData} = {
 		name: "Bass Boost",
 		rating: 2,
 		num: -6,
+	},
 };
